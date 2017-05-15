@@ -7,8 +7,8 @@ description: My Hello World lambda function
 
 # if access key and secret are left blank, boto will use the credentials
 # defined in the [default] section of ~/.aws/credentials.
-aws_access_key_id: AKIAJ6UHWFPZXWI5MINQ
-aws_secret_access_key: 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
+aws_access_key_id:
+aws_secret_access_key:
 
 # dist_directory: dist
 # timeout: 15
