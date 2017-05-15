@@ -13,35 +13,3 @@ aws_secret_access_key:
 # dist_directory: dist
 # timeout: 15
 # memory_size: 512
-functions:
-  create:
-    handler: service.create
-    events:
-      - http:
-          path: menu
-          method: post
-          cors: true
-
-  get:
-    handler: service.get
-    events:
-      - http:
-          path: menu/{menu_id}
-          method: get
-          cors: true
-
-  update:
-    handler: service.update
-    events:
-      - http:
-          path: menu/{menu_id}
-          method: put
-          cors: true
-
-  delete:
-    handler: service.delete
-    events:
-      - http:
-          path: menu/{menu_id}
-          method: delete
-          cors: true
